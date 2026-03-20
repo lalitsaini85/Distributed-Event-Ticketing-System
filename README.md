@@ -18,7 +18,7 @@ The system is built on a Modular Monolith architecture (ready to be split into M
 - Worker: A background consumer picks up the message, generates a PDF ticket, and sends an Email.
 
 ## 🛠 Tech Stack:
-- Java 17/21 & Spring Boot
+- Java & Spring Boot
 - Database: PostgreSQL (Relational consistency)
 - Caching: Redis (Distributed locking & TTL)
 - Messaging: RabbitMQ (Asynchronous decoupling)
